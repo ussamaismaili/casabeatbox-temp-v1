@@ -209,10 +209,15 @@ body{
     font-size: 21px;
 }
 @media (max-width: 767px) {
-   .landing .intro{
+   /* .landing .intro{
         width: 350px;
-        padding: 18px;
+        padding: 18px; last edit
 
+    } */
+    .landing .intro {
+        width: calc(100% - 58px);
+        padding: 18px;
+        height: calc(100% - 110px);
     }
    .landing .intro h1 span {
         font-size: 31px;
