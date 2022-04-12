@@ -84,6 +84,9 @@ body{
     .header .links ul{
         display: none;
     }
+    .header .links ul {
+        z-index: 1;
+    }
     .links {
         padding: 12px;
         border-radius: 28px;
@@ -145,6 +148,17 @@ body{
     background-color: #eeeeeec7;
     font-weight: 700;
     border: 2px solid;
+}
+
+@media (max-width: 767px) {
+    .header .links ul li a {
+        transition: 0.3s;
+        color: #000;
+        background-color: #ebceded1;
+        border-radius: 12px;
+        width: calc(100vh - 305px);
+        margin-top: 3px;
+    }
 }
 /* end header */
 /* start landing */
@@ -636,3 +650,4 @@ background-image: url(../images/feat-back.png);
 }
 
 /* end footer */
+
