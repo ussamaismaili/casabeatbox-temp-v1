@@ -55,8 +55,7 @@ body{
 
 @media (max-width: 767px) {
     .header .logo{
-    /* width: 133px; */
-    width: 100px;
+     width: 100px;
 
     }
 }
@@ -223,12 +222,10 @@ body{
         height: calc(100% - 110px);
     }
    .landing .intro h1 span {
-        /* font-size: 31px; */
         font-size: 30px;
 
     }
     .landing .intro h1 {
-        /* font-size: 40px; */
         font-size: 38px;
 
     }
