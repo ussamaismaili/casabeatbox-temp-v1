@@ -98,7 +98,6 @@ body{
         width: 42px;
         width: 38px;
 
-
     }
 
     .header .links .drop-icon span{
@@ -109,17 +108,17 @@ body{
     }
    
     .header .links .drop-icon span:first-child{
-        height: 5px;
+        height: 4px;
         width: 100%;
     }
     .header .links .drop-icon span:nth-child(2){
-        height: 5px;
+        height: 4px;
         width: 70%;
         transition: 0.3s;
     }
 
     .header .links .drop-icon span:last-child{
-        height: 5px;
+        height: 4px;
         width: 100%;
     }
 
