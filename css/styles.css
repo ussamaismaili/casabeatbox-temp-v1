@@ -55,7 +55,9 @@ body{
 
 @media (max-width: 767px) {
     .header .logo{
-    width: 133px;
+    /* width: 133px; */
+    width: 100px;
+
     }
 }
 .header .container{
@@ -94,6 +96,8 @@ body{
         justify-content: flex-end;
         cursor: pointer;
         width: 42px;
+        width: 38px;
+
 
     }
 
@@ -220,10 +224,17 @@ body{
         height: calc(100% - 110px);
     }
    .landing .intro h1 span {
-        font-size: 31px;
+        /* font-size: 31px; */
+        font-size: 30px;
+
     }
     .landing .intro h1 {
-        font-size: 40px;
+        /* font-size: 40px; */
+        font-size: 38px;
+
+    }
+    .landing .intro p {
+        font-size: 17px;
     }
 
 }
