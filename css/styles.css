@@ -659,5 +659,14 @@ background-image: url(../images/feat-back.png);
     color: white;
 }
 
+@media (max-width: 767px) {
+    footer {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}
+
+
+
 /* end footer */
 
