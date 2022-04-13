@@ -583,6 +583,13 @@ background-image: url(../images/feat-back.png);
     padding-bottom: 60px;
     background-color: #f6f6f6;
 }
+@media (min-width: 768px) {
+    .contact .info{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .contact .info{
     padding-top: 60px;
@@ -607,6 +614,7 @@ background-image: url(../images/feat-back.png);
     /* text-decoration: none; */
     background-color: #271760;
     border-radius: 28px;
+    padding: 3px 0;
 }
 
 .contact .info .social{
@@ -673,4 +681,3 @@ background-image: url(../images/feat-back.png);
 
 
 /* end footer */
-
