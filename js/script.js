@@ -5,16 +5,17 @@ dropList.onclick=function() {
 };
 
 
-let home = document.querySelector('.landing');
-let head = document.querySelector('.container');
+var query =  window.matchMedia("(max-width :767px)");
+if (query.matches) {
+    let home = document.querySelector('.landing');
+    let head = document.querySelector('.container');
+    links.onclick  =function(){
+        links.style.display ="none";
+        
+    };
+    home.onclick = function(){
+        links.style.display ="none";
+    };
+}
 
-
-links.onclick  =function(){
-    links.style.display ="none";
-    
-};
-
-home.onclick = function(){
-    links.style.display ="none";
-};
 
