@@ -86,6 +86,8 @@ body{
     }
     .header .links ul {
         z-index: 1;
+        margin-top: 5px;
+
     }
     .links {
         padding: 12px;
@@ -647,6 +649,14 @@ background-image: url(../images/feat-back.png);
     font-weight: 700;
     color: white;
 
+}
+
+.credit {
+    margin-top: 15px;
+}
+
+.footer .credit a {
+    color: white;
 }
 
 /* end footer */
