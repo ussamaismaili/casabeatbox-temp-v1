@@ -16,6 +16,6 @@ if (query.matches) {
     home.onclick = function(){
         links.style.display ="none";
     };
-}
+};
 
 
