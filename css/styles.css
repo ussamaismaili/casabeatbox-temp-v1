@@ -142,7 +142,7 @@ body{
     }
 
     .header .links .drop-icon.active span:last-child{
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
     }
     /*end 2023 edit */
 
